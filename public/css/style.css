@@ -1,0 +1,382 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap");
+
+body {
+  font-family: "Roboto", sans-serif;
+  background-color: #22262c;
+  color: white;
+  margin: 0;
+  padding: 0;
+  scroll-behavior: smooth;
+  width: 100%;
+}
+
+/* Home ----------------------*/
+
+#Home {
+  height: 1250px;
+  width: auto;
+}
+.logo {
+  text-align: left;
+  color: red;
+  font-size: 1.3em;
+  margin-left: 1em;
+}
+.home-nav {
+  display: grid;
+  grid-template-columns: 10fr 1fr 1fr 1fr 1fr;
+  grid-gap: 1em;
+  align-items: center;
+  text-align: center;
+  font-size: 1.3em;
+  width: 100%;
+  position: fixed;
+}
+.home-nav a {
+  color: white;
+  text-decoration: none;
+}
+.home-nav a:hover {
+  color: red;
+}
+.background-red {
+  background-color: red;
+  padding: 5px 0px 5px 0px;
+  margin: 0px 10px 0px 10px;
+}
+.home-text {
+  color: white;
+  display: grid;
+  grid-template-columns: auto auto;
+  grid-gap: 1em;
+  align-items: left;
+  text-align: left;
+  font-size: 1.5em;
+  width: 100%;
+}
+.home-text h1 {
+  padding-left: 15%;
+  padding-top: 5em;
+  padding-bottom: 16em;
+}
+
+/* Over Mij -----------------------*/
+
+#OverMij {
+  height: 1250px;
+}
+.OverMij-text {
+  color: white;
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(650px, 1fr));
+  grid-gap: 1em;
+  align-items: left;
+  text-align: left;
+  font-size: 2.7em;
+  padding-top: 4em;
+}
+.OverMij-text h4 {
+  padding-left: 15%;
+}
+.paragraaf-OverMij {
+  width: 100%;
+  padding-top: 1.8em;
+}
+.paragraaf-OverMij p {
+  font-size: 0.6em;
+  padding-left: 5%;
+  padding-right: 5%;
+  word-spacing: 2px;
+  line-height: 40px;
+}
+/* Projects ------------------------ */
+#projects {
+  height: 1250px;
+  background-color: rgba(255, 166, 0, 0.192);
+}
+.projects-text {
+  text-align: center;
+  font-size: 2.7em;
+  width: 100%;
+}
+.projecten {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(500px, 1fr));
+  grid-gap: 1em;
+  text-align: center;
+  align-items: center;
+  font-size: 2.7em;
+  padding-bottom: 2em;
+}
+.logo-img {
+  width: 10em;
+  margin: 2em;
+  margin-top: 0;
+  border-radius: 20px;
+}
+.project-text {
+  font-size: 0.5em;
+}
+/* Contact ------------------------ */
+#Contact {
+  height: 1200px;
+  text-align: center;
+}
+.contact-text {
+  padding: 2em;
+  font-size: 2.7em;
+}
+.contact-buttons {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(400px, 1fr));
+  grid-gap: 4em;
+}
+.ronde-button {
+  background-color: rgba(255, 255, 255, 0.103);
+  border-radius: 10%;
+  height: 300px;
+  font-size: 4em;
+  line-height: 300px;
+  text-decoration: none;
+  color: black;
+}
+.link-linkedin {
+  font-size: 7em;
+}
+.link-github {
+  font-size: 15em;
+  width: 100%;
+}
+.link-email {
+  width: 100%;
+  font-size: 2em;
+}
+.hacktheboxlogo {
+  height: 100%;
+  filter: grayscale(100%);
+}
+.link-linkedin:hover {
+  color: blue;
+}
+.link-github:hover {
+  color: red;
+}
+.link-email:hover {
+  color: red;
+}
+.hacktheboxlogo:hover {
+  filter: grayscale(0%);
+}
+/* footer ------------------------- */
+
+/* Extra ------------------------- */
+.red-text {
+  color: red;
+  display: inline;
+}
+.gray-box-1 {
+  top: 0;
+  right: 0;
+  height: 1000px;
+  width: 750px;
+  background-color: #2e323b;
+  position: absolute;
+  z-index: -100;
+}
+.gray-box-2 {
+  top: 10em;
+  right: 30em;
+  height: 800px;
+  width: 450px;
+  background-color: #888888;
+  position: absolute;
+  z-index: -99;
+}
+.gray-box-3 {
+  top: 60em;
+  left: 15em;
+  height: 1800px;
+  width: 450px;
+  background-color: #2e323b;
+  position: absolute;
+  z-index: -99;
+}
+.gray-box-4 {
+  top: 110em;
+  right: 1em;
+  height: 1300px;
+  width: 750px;
+  background-color: #2e323b;
+  position: absolute;
+  z-index: -100;
+}
+.gray-box-5 {
+  top: 210em;
+  left: 4em;
+  height: 1300px;
+  width: 600px;
+  background-color: #2e323b;
+  position: absolute;
+  z-index: -100;
+}
+.gray-box-6 {
+  top: 280em;
+  right: 20em;
+  height: 400px;
+  width: 300px;
+  background-color: #2e323b;
+  position: absolute;
+  z-index: -99;
+}
+@media screen and (max-width: 85em) {
+  * {
+  }
+  .home-text h1 {
+    text-align: center;
+    padding-left: 5%;
+    padding-bottom: 7em;
+  }
+  .OverMij-text {
+    grid-template-columns: 1fr;
+    grid-gap: 1em;
+    align-items: center;
+    text-align: center;
+    padding: 0.4em;
+    padding-top: 3em;
+    margin-top: 3em;
+  }
+  .OverMij-text h4 {
+    text-align: center;
+    padding: 0;
+    margin: 0;
+  }
+  .paragraaf-OverMij p {
+    font-size: 0.5em;
+    padding: 1em;
+    text-align: center;
+    width: 100%;
+    padding: 0;
+    margin: 0;
+  }
+}
+@media screen and (max-width: 40em) {
+  * {
+  }
+  .home-nav {
+    /* display: grid;
+    grid-template-columns: 10fr 1fr 1fr 1fr 1fr;
+    grid-gap: 1em; */
+    font-size: 0.9em;
+  }
+  .home-text h1 {
+    text-align: center;
+    padding-left: 1%;
+    padding-bottom: 7em;
+    width: 100%;
+    font-size: 1.7em;
+  }
+  .OverMij {
+    width: 100%;
+  }
+  .OverMij-text h4 {
+    text-align: center;
+    padding: 0;
+    font-size: 0.6em;
+    margin: 0;
+  }
+  .OverMij-text p {
+    text-align: center;
+    padding-left: 0;
+    font-size: 0.4em;
+    padding-block-end: 0;
+    margin: 0;
+    padding: 0;
+  }
+  .projects-text {
+    text-align: center;
+    font-size: 2em;
+  }
+  .projecten {
+    grid-template-columns: 1fr;
+    grid-gap: 0;
+    font-size: 1.7em;
+    padding-bottom: 2em;
+  }
+  .project-text {
+    font-size: 0.6em;
+    padding: 0.5em;
+  }
+  .contact-text {
+    padding: 1em;
+    font-size: 2em;
+  }
+  .contact-buttons {
+    grid-template-columns: 1fr;
+    grid-gap: 2em;
+  }
+  .ronde-button {
+    border-radius: 10%;
+    height: 200px;
+    font-size: 4em;
+    line-height: 200px;
+    width: 100%;
+  }
+  .link-email {
+    width: 100%;
+    font-size: 1.5em;
+  }
+  .gray-box-1 {
+    top: 0;
+    left: 0;
+    height: 1000px;
+    width: 150px;
+    background-color: #2e323b;
+    position: absolute;
+    z-index: -100;
+  }
+  .gray-box-2 {
+    top: 10em;
+    left: 0em;
+    height: 800px;
+    width: 350px;
+    background-color: #2e323b;
+    position: absolute;
+    z-index: -99;
+  }
+  .gray-box-3 {
+    top: 60em;
+    left: 0em;
+    height: 1800px;
+    width: 250px;
+    background-color: #2e323b;
+    position: absolute;
+    z-index: -99;
+  }
+  .gray-box-4 {
+    top: 110em;
+    left: 0em;
+    height: 1800px;
+    width: 150px;
+    background-color: #2e323b;
+    position: absolute;
+    z-index: -100;
+  }
+  .gray-box-5 {
+    top: 210em;
+    left: 0em;
+    height: 1300px;
+    width: 300px;
+    background-color: #2e323b;
+    position: absolute;
+    z-index: -100;
+  }
+  .gray-box-6 {
+    top: 275em;
+    left: 0em;
+    height: 260px;
+    width: 100px;
+    background-color: #2e323b;
+    position: absolute;
+    z-index: -99;
+  }
+}
